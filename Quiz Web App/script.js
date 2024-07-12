@@ -45,6 +45,28 @@ document.addEventListener("DOMContentLoaded", function () {
                 }
             ]
         },
+        // index 2
+        {
+            question: "What is the capital of China?",
+            answer: [
+                // index 0
+                {
+                    text: "Macao", current: true
+                },
+                // index 1
+                {
+                    text: "Paris", current: false
+                },
+                // index 2
+                {
+                    text: "Berlin", current: false
+                },
+                // index 3
+                {
+                    text: "London", current: false
+                }
+            ]
+        }
 
     ];
 
