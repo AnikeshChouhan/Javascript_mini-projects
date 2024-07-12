@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(2, 28, 70);
+}
+
+.nextbtn {
+    background-color: rgb(2, 28, 70);
+}
+
+.mycolumn h2 {
+    border-bottom: 2px solid black;
+}
+
+.mycolumn h4 {
+    text-align: start;
+}
+
+.btn {
+    border: 2px solid lightgrey;
+}
+
+.correct {
+    background: #9ababc;
+}
+
+.incorrect {
+    background: #ff9393;
+}
+
+.btn:hover:not([disabled]) {
+    background: #222;
+    color: #fff;
+}
+
+.btn:disabled {
+    cursor: no-drop;
+}
